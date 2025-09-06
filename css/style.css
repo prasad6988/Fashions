@@ -41,7 +41,17 @@ footer{
 .title{
     text-align: center;
     margin: 20px;
+    animation: zoomin 1s ease-in 2 normal;
 
+}
+@keyframes zoomin {
+    0%{
+        color: blue;
+    }
+    300%{
+        color: blueviolet;
+    }
+    
 }
 .category>img{
     height: 100px;
@@ -95,4 +105,10 @@ align-items:center;
 #floating-watsapp img{
     height: 100px;
 
+}
+@keyframes updown {
+    100%{
+        transform: translateY(-10x);
+    }
+    
 }
